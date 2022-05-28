@@ -15,10 +15,12 @@
 }
 .hero-image {
     color: #f9faf8;
+    background-color: grey;
 }
 
 .left-header {
     font-size: 24px;
+    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -60,3 +62,78 @@ button {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+/* Flexbox */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 156px;
+}
+ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    gap: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
