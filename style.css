@@ -34,6 +34,7 @@ button,
 }
 button {
     color: #f9faf8;
+    font-size: 16px;
 }
 
 .info-header {
@@ -57,7 +58,7 @@ button {
 }
 
 .footer-text-header {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     color: #f9faf8;
 }
@@ -120,11 +121,13 @@ ul {
     margin: 12px 0px;
 }
 
-button {
+.hero-button {
     border-radius: 8px;
     padding: 8px 24px;
     border: 0px;
 }
+
+
 
 
 .section-three {
@@ -145,4 +148,40 @@ button {
 }
 
 
+
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    margin: 84px 156px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 96px;
+}
+
+.footer-text-header {
+    margin: 4px 0px;
+}
+
+.footer-text-main {
+    margin: 4px 0px;
+}
+
+.footer-button {
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 0px 96px;
+    padding: 4px 24px;
+}
 
